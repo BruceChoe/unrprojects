@@ -18,19 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="LLRBT.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{53E58D94-6410-4F17-AB20-ABD92930FA7B}</ProjectGuid>
+    <ProjectGuid>{FA05B76C-308B-49E2-AFDC-25AA9C8A8541}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>PA05BruceChoe</RootNamespace>
+    <RootNamespace>mdPA05BruceChoe</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>dwPA05_BruceChoe</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -157,6 +150,13 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\Downloads\mdRBT\proj8.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\Downloads\mdRBT\LeftLeaningRedBlackTree.h" />
+    <ClInclude Include="..\..\..\..\Downloads\mdRBT\RedBlackNode.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
