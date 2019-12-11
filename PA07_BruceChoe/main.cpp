@@ -71,8 +71,8 @@ int main()
 {
 // matrix representation of graph
    int graph[][V] = { { 0, 218, 518, 704, 439 }, // Reno to X
-                   { 218, 0, 736, 808, 569 }, // SF to X
-                   { 518, 736, 0, 835, 421 }, // Salt Lake City to X
+                   { 218, 0, 1000000, 808, 569 }, // SF to X
+                   { 518, 1000000, 0, 835, 421 }, // Salt Lake City to X
                    { 704, 808, 835, 0, 1115 }, // Seattle to X
                    {439, 569, 421, 1115, 0 }  // Las Vegas to X
                    };
